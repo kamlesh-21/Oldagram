@@ -28,3 +28,17 @@ const posts = [
     }
 ]
 
+let likes1 = document.querySelector(".likes")
+let incrementEl = document.querySelector(".increment")
+let heartEl= document.querySelector(".heart")
+
+let likeBtn = 21
+incrementEl.addEventListener("click", function(){
+        likeBtn++
+        likes1.textContent = `${likeBtn} likes`
+})
+heartEl.addEventListener("click", function(){
+        likeBtn++
+        likes1.textContent = `${likeBtn} likes`
+})
+    

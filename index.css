@@ -10,12 +10,6 @@ main {
     border-radius: 15px;    
 }
 
-/* .container {
-    width: 375px;
-    margin: 0 auto;
-  
-} */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -59,29 +53,21 @@ section {
 
 .icons, footer, section {
     padding-left: 8px;
+    /* border: 2px solid red; */
+}
+.icons{
+    padding-top: 5px;
 }
 .emoticons {
     height: 28px;
-    padding: 5px;
+    padding: 5px 1px;
+}
+.emoticons:hover{
+    opacity: 50%;
 }
 .likes, .commenter{
     font-weight: bold;
+    margin-top: 10px;
 }
-
-/* .avatar-details {
-    display: flex;
-    width: 500px;
-    justify-content: flex-start;
-}
-
-section {
-    height: 67px;
-    width: 500px;
-    display: flex;
-    text-align: left;
-}
-.location{
-    display: inline-block;
-} */
 
 
